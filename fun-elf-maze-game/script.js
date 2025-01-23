@@ -23,7 +23,7 @@ const levels = [
 ];
 
 const userImg = new Image();
-userImg.src = '65798a01a892b6981eaf7bb0.png'; 
+userImg.src = 'elf.png'; 
 
 class Cell {
     constructor(x, y) {
@@ -178,7 +178,7 @@ function firstClick() {
     messages.innerHTML = "This lost elf, Eli, can't seem to find his way back on Christmas Eve!";
     canvas.style.display = 'block';
     const storyImg = new Image();
-    storyImg.src = '65798a01a892b6981eaf7bb0.png';
+    storyImg.src = 'elf.png';
     storyImg.onload = function() {
         ctx.drawImage(storyImg, 0, 0, canvas.width, canvas.height);
     };
