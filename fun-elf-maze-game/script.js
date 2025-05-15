@@ -23,7 +23,7 @@ const levels = [
 ];
 
 const userImg = new Image();
-userImg.src = 'elf.png'; 
+userImg.src = 'images/elf.png'; 
 
 class Cell {
     constructor(x, y) {
