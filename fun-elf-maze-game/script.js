@@ -178,7 +178,7 @@ function firstClick() {
     messages.innerHTML = "This lost elf, Eli, can't seem to find his way back on Christmas Eve!";
     canvas.style.display = 'block';
     const storyImg = new Image();
-    storyImg.src = 'elf.png';
+    storyImg.src = 'images/elf.png';
     storyImg.onload = function() {
         ctx.drawImage(storyImg, 0, 0, canvas.width, canvas.height);
     };
